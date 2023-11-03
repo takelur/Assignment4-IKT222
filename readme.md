@@ -82,6 +82,9 @@ return total_time;
 - The SSH Server only accepts public-key authentication. You need to do something before accessing this server. What if we could overwrite the `authorized_keys` file somehow?
 - Use ssh-rsa keys.
 
+### Internal Network:
+- 10.13.13.254 might have something interesting
+
 ### Dropbox
 
 - Consider how Dropbox could be used to gain access to SSH.
