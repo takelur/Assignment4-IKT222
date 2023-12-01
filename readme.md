@@ -57,10 +57,11 @@ if (a.length() != b.length()) {
 }
 
 for (size_t i = 0; i <= a.length(); ++i) {
+    total_time++;
+
     if (a[i] != b[i]) {
         return total_time;
     }
-    total_time++;
 }
 return total_time;
 ```
